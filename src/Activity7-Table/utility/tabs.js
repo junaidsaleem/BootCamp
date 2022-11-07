@@ -1,7 +1,7 @@
 
-async function fetchData() {
+ function fetchData() {
     var url = "https://jsonplaceholder.typicode.com/users";
-    await fetch(url)
+     fetch(url)
         .then(response => response.json())
         .then(json => {
             console.log(json)
