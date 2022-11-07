@@ -10,6 +10,7 @@ function fetchData() {
                     document.getElementById('tableBody').innerHTML +=
                     `
                     <tr>
+                    <td>${user.id}</td>
                     <td>${user.name}</td>
                     <td>${user.email}</td>
                     <td>${user.address.street}, ${user.address.city}, zip - ${user.address.zipcode}</td>
