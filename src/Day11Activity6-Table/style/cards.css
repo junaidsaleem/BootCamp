@@ -35,3 +35,8 @@
       border-radius: 10px;
       background-color: #e3f2fd;
   }
+
+  .table-striped>tr:nth-child(odd){
+    background-color:red;
+ }
+ 
