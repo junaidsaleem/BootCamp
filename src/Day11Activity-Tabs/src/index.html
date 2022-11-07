@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabs demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/cards.css">
+    <script src="../utility/tabs.js"></script>
+</head>
+
+<body id="main" onload="fetchData()">
+
+    <div class="container bg-light my-5 rounded-3">
+        <nav id="navbar" class="navbar navbar-expand-lg  navbar-dark">
+           
+            <div class="collapse navbar-collapse rounded" id="main">
+                <ul class="navbar-nav mr-auto">
+                    <li id="userBtn" class="nav-item rounded active">
+                      <a class="nav-link" onclick="userSelected()"  >Users</a>
+                    </li>
+                    <li id="postBtn" class="nav-item rounded">
+                      <a class="nav-link" onclick="postSelected()">Posts</a>
+                    </li>
+                </ul>              
+            </div>
+        </nav>
+        <div id="userPost" class="row ">
+           
+
+        </div>
+        <div id="userParent" class="row">
+           
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

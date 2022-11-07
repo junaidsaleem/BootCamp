@@ -1,0 +1,15 @@
+#navbar{
+    background-color: #e3f2fd;
+}
+
+#main{
+    background-image: linear-gradient(to right, rgba(0, 73, 77, 0.66),rgba(0, 60, 145, 0.659));
+}
+
+.viewProfileBtn{
+    text-align: center;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.234);
+  }
